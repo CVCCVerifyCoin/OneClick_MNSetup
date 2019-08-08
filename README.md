@@ -97,3 +97,12 @@ if you see this, you are on the right track:
 [![QT12](https://raw.githubusercontent.com/CVCCVerifyCoin/OneClick_MNSetup/master/assests/17.png)]()  
 
 **Сongratulations you did it!**
+
+
+# Guide for Update_Masternode.sh:
+
+`wget -q https://raw.githubusercontent.com/CVCCVerifyCoin/OneClick_MNSetup/master/cvcc-mn-updater.sh`
+
+`sudo chmod +x cvcc-mn-updater.sh`
+
+`./cvcc-mn-updater.sh`

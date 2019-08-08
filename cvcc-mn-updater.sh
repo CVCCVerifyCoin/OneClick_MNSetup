@@ -39,4 +39,3 @@ cryptoverification-cli addnode 45.63.97.36 onetry
 cryptoverification-cli addnode 78.141.198.73 onetry
 echo "Masternode Updated!"
 echo "Please wait few minutes and start your Masternode again on your Local Wallet"
-
