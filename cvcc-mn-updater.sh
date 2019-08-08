@@ -1,6 +1,6 @@
 #/bin/bash
 
-echo "We will update your Cryptoverification Masternode right now" 
+echo "Your Cryptoverification Masternode Will be Updated To Latest Version Now" 
 sudo apt-get -y install unzip
 cryptoverification-cli stop
 rm -rf /usr/local/bin/cryptoverification*
