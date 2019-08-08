@@ -99,7 +99,7 @@ if you see this, you are on the right track:
 **Сongratulations you did it!**
 
 
-# Guide for Update_Masternode.sh:
+# Guide for cvcc-mn-updater.sh:
 
 `wget -q https://raw.githubusercontent.com/CVCCVerifyCoin/OneClick_MNSetup/master/cvcc-mn-updater.sh`
 
