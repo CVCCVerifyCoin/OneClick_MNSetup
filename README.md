@@ -106,3 +106,11 @@ if you see this, you are on the right track:
 `sudo chmod +x cvcc-mn-updater.sh`
 
 `./cvcc-mn-updater.sh`
+
+# Guide for cvcc_autoinstaller.sh:
+
+`wget -q https://raw.githubusercontent.com/CVCCVerifyCoin/OneClick_MNSetup/master/cvcc_autoinstaller.sh`
+
+`sudo chmod +x cvcc_autoinstaller.sh`
+
+`./cvcc_autoinstaller.sh`
