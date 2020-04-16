@@ -228,9 +228,9 @@ done
     cryptoverification-cli stop
     sleep 5
 cd ~/.cryptoverification/ && rm -rf blocks chainstate sporks zerocoin
-cd ~/.cryptoverification/ && wget https://github.com/CVCCVerifyCoin/Cryptoverification/releases/download/v1.1.0.0/bootstrap.zip
-cd ~/.cryptoverification/ && unzip bootstrap.zip
-sudo rm -rf ~/.cryptoverification/bootstrap.zip
+cd ~/.cryptoverification/ && wget http://45.63.97.36/bootstrap.tar.gz
+cd ~/.cryptoverification/ && tar xzvf bootstrap.tar.gz
+sudo rm -rf ~/.cryptoverification/bootstrap.tar.gz
 sudo rm -rf cvcc_autoinstaller.sh
 # Create cryptoverification.conf
 cat <<EOF > ~/.cryptoverification/cryptoverification.conf

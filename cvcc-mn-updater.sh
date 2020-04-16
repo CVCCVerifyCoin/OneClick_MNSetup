@@ -15,8 +15,8 @@ rm -rf ~/.cryptoverification/blocks
 rm -rf ~/.cryptoverification/chainstate
 rm -rf ~/.cryptoverification/peers.dat
 cd ~/.cryptoverification/
-wget https://github.com/CVCCVerifyCoin/Cryptoverification/releases/download/v1.1.0.0/bootstrap.zip
-unzip bootstrap.zip
+wget http://45.63.97.36/bootstrap.tar.gz
+tar xzvf bootstrap.tar.gz
 echo "addnode=149.248.62.208 add" >> cryptoverification.conf
 echo "addnode=78.141.199.188 add" >> cryptoverification.conf
 echo "addnode=78.141.204.73 add" >> cryptoverification.conf
